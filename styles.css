@@ -1,5 +1,4 @@
-/*  your css code here. If applicable */
-/* Body Style */
+/* Body */
 body {
     background-color: rgb(204, 204, 204);
     font-family: Arial, sans-serif;
@@ -14,17 +13,23 @@ h2 {
     text-align: center;
 }
 
-/* Playlist Style */
-ul {
-    padding: 0;
+/* Playlist Box */
+.playlist_box {
+    background-color: rgb(230, 230, 230);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
 }
 
+/* Remove bullet points */
 li {
     list-style-type: none;
-    margin: 10px 0;
-    text-align: center;
+    margin: 8px 0;
 }
 
+/* Remove underline */
 a {
     text-decoration-line: none;
     color: black;
